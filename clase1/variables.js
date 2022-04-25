@@ -1,4 +1,4 @@
-/*let i = 0
+let i = 0
 
 function foo () {
   i = 1
@@ -9,8 +9,7 @@ function foo () {
     console.log(j)
   }
 }
-
-foo()*/
+foo()
 
 
 /*function foo2 () {
