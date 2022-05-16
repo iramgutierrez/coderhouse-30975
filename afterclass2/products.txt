@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Coca Cola",
+    "precio": 10,
+    "id": 1
+  },
+  {
+    "name": "Coca Cola",
+    "precio": 10,
+    "id": 2
+  },
+  {
+    "name": "Coca Cola",
+    "precio": 10,
+    "id": 3
+  },
+  {
+    "name": "Coca Cola",
+    "precio": 10,
+    "id": 4
+  },
+  {
+    "name": "Coca Cola",
+    "precio": 10,
+    "id": 5
+  },
+  {
+    "name": "Coca Cola",
+    "precio": 10,
+    "id": 6
+  },
+  {
+    "name": "Coca Cola",
+    "precio": 10,
+    "id": 7
+  },
+  {
+    "name": "Coca Cola",
+    "precio": 10,
+    "id": 8
+  },
+  {
+    "name": "Pepsi",
+    "precio": 20,
+    "id": 9
+  }
+]
