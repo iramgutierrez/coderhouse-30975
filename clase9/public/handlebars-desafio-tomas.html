@@ -1,0 +1,23 @@
+<body>
+  <span></span> <!-- para inyectar el resultado -->
+  <!-- incluir handlebars desde el CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+  <script>
+    const template = Handlebars.compile(`
+    <h1>{{nombre}}</h1> 
+    <h1>{{apellido}}</h1> 
+    <h1>{{edad}}</h1> 
+    <h1>{{email}}</h1>
+    <h1>{{telefono}}</h1>
+    `); // compila la plantilla
+    const html = template({ 
+    nombre: 'lucas',
+    apellido: 'santigo',
+    edad: 32,
+    email: 'santi.lu@gmail.com',
+    telefono: '3411234567'
+}); // genera el html
+    document.querySelector('span').innerHTML = html; // inyecta el resultado en la vista
+  </script>
+</body>
+</html>
