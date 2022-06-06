@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "products": [
+      {
+        "productId": 3,
+        "name": "Coca Cola",
+        
+      },
+      {
+        "productId": 6
+      },
+      {
+        "productId": 8
+      }
+    ]
+  }
+]

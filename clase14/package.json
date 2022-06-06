@@ -1,0 +1,27 @@
+{
+  "name": "clase14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-test": "webpack ./a.js ./b.js ./c.js",
+    "build-dev": "webpack ./a.js ./b.js ./c.js --mode=development",
+    "build-desafio": "webpack ./desafio/m1.js ./desafio/m2.js ./desafio/m3.js",
+    "build-sasha": "webpack ./desafio/m1-sasha.js ./desafio/m2-sasha.js ./desafio/m3-sasha.js",
+    "build": "webpack",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.18.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
