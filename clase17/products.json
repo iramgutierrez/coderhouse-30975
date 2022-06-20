@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "nombre": "Coca cola",
+    "precio": 10,
+    "descripcion": "Refresco de cola",
+    "stock": 100,
+    "categoria_id": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Agua mineral",
+    "precio": 20,
+    "descripcion": "Botella de 1L",
+    "categoria_id": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Galletas",
+    "descripcion": "Paquete de 20",
+    "stock": 100,
+    "categoria_id": 2
+  }
+]

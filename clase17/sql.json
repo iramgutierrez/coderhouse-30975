@@ -1,0 +1,34 @@
+[
+  [
+    "id",
+    "nombre",
+    "precio",
+    "descripcion",
+    "stock",
+    "categoria_id"
+  ],
+  [
+    1,
+    "Coca cola",
+    10,
+    "Refresco de cola",
+    100,
+    1
+  ],
+  [
+    2,
+    "Agua mineral",
+    20,
+    "Botella de 1L",
+    100,
+    1
+  ],
+  [
+    1,
+    "Galletas",
+    11,
+    "Paquete de 20",
+    100,
+    2
+  ]
+]

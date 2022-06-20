@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Alvaro"
+  },
+  {
+    "name": "Martha",
+    "estudios": "Ingeniero",
+    "ingles": "alto",
+    "address": {
+      "calle": "xxxx",
+      "numero": 44,
+      "ciudad": "buenosaires",
+      "pais": "ar"
+    },
+    "cursos": [
+      "Desarrollo Web",
+      "React JS",
+      "Programación Backend"
+    ]
+  }
+]
