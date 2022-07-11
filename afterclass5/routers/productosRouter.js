@@ -2,7 +2,7 @@ const { Router } = require('express')
 const getStorage = require('../daos')
 
 const { products: storage } = getStorage()
-
+console.log(storage)
 const productsRouter = Router()
 
 productsRouter.get('/', (req, res) => {

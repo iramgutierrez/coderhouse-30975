@@ -2,6 +2,7 @@ const { Router } = require('express')
 const getStorage = require('../daos')
 
 const { users: storage } = getStorage()
+console.log(storage)
 
 const usersRouter = Router()
 
