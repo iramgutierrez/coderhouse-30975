@@ -34,7 +34,7 @@ passport.use('login', new LocalStrategy((username, password, done) => {
   return User.findOne({ username })
     .then(user => {
       if (!user) {
-        return done(null, false, { message: 'Nombre de usuario incorrecto' })
+        done(null, false, { message: 'Nombre de usuario incorrecto' })
       }
 
       if (!isValidPassword(user.password, password)) {
