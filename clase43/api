@@ -1,0 +1,8 @@
+host api.myserver.com/api/v1
+
+GET     /products      Listar productos
+POST    /products      Crear producto
+GET     /products/:id  Obtener detalle de un producto a partir de su id
+PUT     /products/:id  Reemplazar producto a partir de su id
+PATCH   /products/:id  Actualizar producto a partir de su id
+DELETE  /products/:id  Eliminar producto a partir de su id
